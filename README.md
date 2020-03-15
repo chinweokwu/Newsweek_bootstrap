@@ -1,6 +1,6 @@
 # bootstrap-project
 
-> This is a pure bootstraps project and it is responsive but it also involues little css and media queries.  
+> This is a pure bootstraps project and it is responsive but it also involues little css and media queries. The project is divided into three section header main and footer. the project has toggle button which appears when the webpage is brought to the minimum size.  
 
 ![screenshot](./bootstrap.png) 
 
