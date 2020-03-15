@@ -33,9 +33,8 @@ img {
 
 .search-form {
   border: none;
-  width: 85px;
+  width: 55px;
   height: 20px;
-  margin-top: 15px;
 }
 
 #extention::before {
@@ -283,4 +282,8 @@ nav li a:hover {
 
 .nava {
   width: 300px;
+}
+
+.question {
+  width: 30px;
 }
