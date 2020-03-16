@@ -125,8 +125,12 @@ nav li a:hover {
 }
 
 .culture-text {
-  color: #272727;
-  font-size: 27px;
+ 
+}
+
+.deck {
+  font: 20px "Lora",serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 .debate {

@@ -58,6 +58,10 @@
     border-left: none;
     padding-right: 15px;
   }
+
+  .culture-text {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 893px) {
@@ -65,5 +69,9 @@
     border-right: none;
     border-left: none;
     padding-right: 15px;
+  }
+
+  .culture-text {
+    font-size: 20px;
   }
 }
