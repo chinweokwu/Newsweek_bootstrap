@@ -134,7 +134,6 @@
 }
 
 @media screen and (max-width: 893px) {
-  
   .soic {
     border-right: none;
     border-left: none;
@@ -150,19 +149,19 @@
   }
 }
 
-@media (min-width: 576px){
-.card-deck {
+@media (min-width: 576px) {
+  .card-deck {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     margin-right: 0;
     margin-left: -15px;
-}
+  }
 }
 
 @media screen and (min-width: 391px) and (max-width: 991px) {
-  .start-img { 
+  .start-img {
     height: 255px;
     background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png);
     background-repeat: no-repeat;
