@@ -232,8 +232,8 @@ nav li a:hover {
 }
 
 .start-img {
-  width: 100%;
-  height: 340px;
+
+  height: 255px;
   background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png);
   background-repeat: no-repeat;
   background-position: center center;
