@@ -22,8 +22,8 @@
   nav li a {
     margin-top: 15px;
     height: 30px;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 
@@ -31,8 +31,8 @@
   nav li a {
     margin-top: 15px;
     height: 30px;
-    padding-left: 13px;
-    padding-right: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
@@ -40,12 +40,12 @@
   nav li a {
     margin-top: 15px;
     height: 30px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
-@media screen and (min-width: 893px) and (max-width: 1154px) {
+@media screen and (min-width: 873px) and (max-width: 1154px) {
   nav li a {
     margin-top: 15px;
     height: 30px;
@@ -62,9 +62,14 @@
   .culture-text {
     font-size: 20px;
   }
+
+  .cult-text {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 893px) {
+  
   .soic {
     border-right: none;
     border-left: none;
@@ -74,4 +79,19 @@
   .culture-text {
     font-size: 20px;
   }
+
+  .cult-text {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 576px){
+.card-deck {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: 0;
+    margin-left: -15px;
+}
 }

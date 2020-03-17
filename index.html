@@ -14,6 +14,7 @@
 </head>
 
 <body class="m-0 p-0 container-fluid">
+<div class="mx-lg-1 px-lg-1">
   <header class="container-fluid navbar navbar-expand-lg navbar-light d-lg-flex d-lg-justify-content-between">
     <div>
       <img src="images/logo-nw.png" alt="logo news" class="nav-brand ml-2 d-lg-none">
@@ -102,11 +103,13 @@
       </li>
     </ul>
   </nav>
+</div>
+
   <main class=" container-fluid px-auto">
-    <div class="row d-flex mt-1  pl-lg-4 pr-lg-4 bg-white">
-      <div class="col-12 col-lg-3 col-md-6">
-          <h5 class="text-muted mt-3">FEATURED STORIES</h5>
-          <div class="card story-card mt-3">
+    <div class="row d-flex mt-1  px-lg-2">
+      <div class="col-sm-12 col-lg-3 col-md-6 bg-white pr-lg-0 order-2 order-md-1 order-lg-1 order-xl-1">
+          <h5 class="text-muted mt-4">FEATURED STORIES</h5>
+          <div class="card story-card">
             <img
               src="https://d.newsweek.com/en/full/1571844/bernie-sanders-joe-biden-missouri-primary-poll.jpg?w=397&amp;h=265&amp;l=49&amp;t=34&amp;q=90&amp;f=7b3fdc0e203af4625a2cc7333316e9c1"
               alt="Bernie Sanders Joe Biden Missouri primary poll" class="mapping-sm_md card-img-top img-fluid">
@@ -169,15 +172,13 @@
               Trump Says Sanders Would Be A 'Tougher' Opponent Than Frontrunner Joe Biden
             </div>
           </div>
-        
       </div>
 
 
-      <div class="col-12 col-lg-6 col-md-6 ">
-        <div class="col-12">
-          <div class="row">
-            <h5 class="text-muted mt-4">TOP STORY</h5>
-            <div class="card pl-md-0">
+      <div class="col-sm-12 col-lg-6 col-md-6 bg-white px-sm-0 pl-lg-5 pr-lg-5 order-1 order-md-2 order-lg-2 order-xl-2">
+          <div class="bg-white order-sm-1 pl-sm-3">
+            <h5 class="text-muted mt-4 ">TOP STORY</h5>
+            <div class="card -md-0">
               <img
                 src="https://d.newsweek.com/en/full/1571844/bernie-sanders-joe-biden-missouri-primary-poll.jpg?w=397&amp;h=265&amp;l=49&amp;t=34&amp;q=90&amp;f=7b3fdc0e203af4625a2cc7333316e9c1"
                 alt="Bernie Sanders Joe Biden Missouri primary poll"
@@ -191,24 +192,26 @@
                   shows, but his lead is within the margin of error.</p>
               </div>
             </div>
+          </div>
 
-            <h5 class="text-muted mt-3 col-sm-12">CULTURE & TRAVEL</h5>
-            <div class="card-deck deck w-100 mr-0">
-              <div class="card travel w-100 h-100 mr-0">
+            <div class="bg-white  order-2 order-md-1 d-none d-lg-block d-md-block">
+            <h5 class="text-muted mt-3 col-sm-12 pl-3">CULTURE & TRAVEL</h5>
+            <div class="card-deck deck w-100 mr-0 pl-3">
+              <div class="card travel w-100">
                 <img src="images/deck_img.jpg" alt="CUL_Uncharted_Stargazing_Banner"
                   class="mapping-mobile lazy lazyloaded img-fluid w-100">
                 <div class="card-body pl-0 pr-0">
                   <h4 class="card-title culture-text pl-0 text-muted">Best Stargazing Spots Around the Globe</h4>
-                  <p class="card-text pl-0 text-muted">Astrotourism is taking off, and these are the best places—on our planet, at
+                  <p class="card-text cult-text text-justify pl-0 text-muted">Astrotourism is taking off, and these are the best places—on our planet, at
                     least—to witness the dazzling display of luminous balls of gas that we call stars</p>
                 </div>
               </div>
-              <div class="card w-100  travel mr-0">
+              <div class="card w-100  travel">
                 <img src="images/deck_img.jpg" alt="CUL_Uncharted_Stargazing_Banner"
                   class="mapping-mobile lazy lazyloaded img-fluid w-100">
                 <div class="card-body pl-0 pr-0 w-100">
                   <h4 class="card-title culture-text pl-0 text-muted">Best Stargazing Spots Around the Globe</h4>
-                  <p class="card-text pl-0 text-muted">Astrotourism is taking off, and these are the best places—on our planet, at
+                  <p class="card-text cult-text text-justify pl-0 text-muted">Astrotourism is taking off, and these are the best places—on our planet, at
                     least—to witness the dazzling display of luminous balls of gas that we call stars</p>
                 </div>
               </div>
@@ -217,13 +220,15 @@
                   class="mapping-mobile lazy lazyloaded img-fluid w-100">
                 <div class="card-body pl-0 pr-0 w-100">
                   <h4 class="card-title culture-text p-0 text-muted">Best Stargazing Spots Around the Globe</h4>
-                  <p class="card-text p-0 text-muted">Have plans to travel to Southeast Asia soon? Here's what our correspondent
+                  <p class="card-text cult-text text-justify p-0 text-muted">Have plans to travel to Southeast Asia soon? Here's what our correspondent
                     experienced during his monthlong stint in the region in February.</p>
                 </div>
               </div>
             </div>
           </div>
+          
 
+          <div class="bg-white pl-sm-3 order-1 order-md-2 d-none d-lg-block d-md-block">
           <h5 class="text-muted more-stories pb-3">MORE STORIES</h5>
           <div class="media mt-3 more-stories">
             <img src="images/deck_img.jpg" class="mapping-small lazysize lazyloaded mr-3" alt="newsweek-img">
@@ -279,6 +284,17 @@
                 </p>
               </div>
             </div>
+            <div class="media mt-3 more-stories">
+                <img src="images/deck_img.jpg" class="mapping-small lazysize lazyloaded d-flex mr-3" alt="newsweek-img">
+    
+                <div class="media-body">
+                  <h5 class="media-title">More Aggressive' Coronavirus Strain May Have Evolved—But Don't Worry</h5>
+                  <p>
+                    Scientists studied the viral DNA from 103 people infected with the virus that has killed over 3,000
+                    people worldwide.
+                  </p>
+                </div>
+              </div>
           <div class="media mt-3 more-stories">
             <img src="images/deck_img.jpg" class="mapping-small lazysize lazyloaded d-flex mr-3" alt="newsweek-img">
 
@@ -314,9 +330,9 @@
           </div>
         </div>
       </div>
+      
 
-      <div class="col-12 col-lg-3 col-md-12">
-        <!-- <div class="container-fluid"> -->
+      <div class="col-sm-12 col-lg-3 col-md-12 bg-white order-3">
         <h5 class="text-muted mt-4">OPINION</h5>
         <div class="media opinion">
           <img class="opinion-img d-flex mr-3 img-fluid rounded-circle" src="images/morahpaul.JPG" alt="newsweek-img">
@@ -381,6 +397,7 @@
             </p>
           </div>
         </div>
+        
 
         <div class="mt-4">
           <h5 class="text-muted">THE DEBATE</h5>
@@ -421,6 +438,103 @@
               Worry</h6>
           </div>
         </div>
+
+
+
+        <div class="mt-5 d-lg-none d-md-none d-sm-block">
+            <h5 class="text-muted">CULTURE & TRAVEL</h5>
+            <div class="card-deck deck w-100 mr-0 ">
+                <div class="card travel w-100">
+                  <img src="images/deck_img.jpg" alt="CUL_Uncharted_Stargazing_Banner"
+                    class="mapping-mobile lazy lazyloaded img-fluid w-100">
+                  <div class="card-body pl-0 pr-0">
+                    <h4 class="card-title culture-text pl-0 text-muted">Best Stargazing Spots Around the Globe</h4>
+                    <p class="card-text cult-text text-justify pl-0 text-muted">Astrotourism is taking off, and these are the best places—on our planet, at
+                      least—to witness the dazzling display of luminous balls of gas that we call stars</p>
+                  </div>
+                </div>
+                <div class="card travel w-100">
+                    <img src="images/deck_img.jpg" alt="CUL_Uncharted_Stargazing_Banner"
+                      class="mapping-mobile lazy lazyloaded img-fluid w-100">
+                    <div class="card-body pl-0 pr-0">
+                      <h4 class="card-title culture-text pl-0 text-muted">Best Stargazing Spots Around the Globe</h4>
+                      <p class="card-text cult-text text-justify pl-0 text-muted">Astrotourism is taking off, and these are the best places—on our planet, at
+                        least—to witness the dazzling display of luminous balls of gas that we call stars</p>
+                    </div>
+                  </div>
+                  <div class="card travel w-100">
+                      <img src="images/deck_img.jpg" alt="CUL_Uncharted_Stargazing_Banner"
+                        class="mapping-mobile lazy lazyloaded img-fluid w-100">
+                      <div class="card-body pl-0 pr-0">
+                        <h4 class="card-title culture-text pl-0 text-muted">Best Stargazing Spots Around the Globe</h4>
+                        <p class="card-text cult-text text-justify pl-0 text-muted">Astrotourism is taking off, and these are the best places—on our planet, at
+                          least—to witness the dazzling display of luminous balls of gas that we call stars</p>
+                      </div>
+                    </div>
+                </div>
+          </div>
+
+
+
+
+        <div class="mt-5 d-lg-none d-md-none d-sm-block">
+            <h5 class="text-muted">MORE STORIES</h5>
+            <div class="media mt-3 more-stories">
+                <img src="https://d.newsweek.com/en/full/1573957/donald-trump.jpg?w=95&amp;h=95&amp;f=e790d83dafe16a9a28b75569e0324cbb" class="mapping-small lazysize lazyloaded d-flex mr-3" alt="newsweek-img">
+                <div class="media-body">
+                  <h5 class="media-title">More Aggressive' Coronavirus Strain May Have Evolved—But Don't Worry</h5>
+                  <p>
+                    Scientists studied the viral DNA from 103 people infected with the virus that has killed over 3,000
+                    people worldwide.
+                  </p>
+                </div>
+              </div>
+              <div class="media mt-3 more-stories">
+                  <img src="https://d.newsweek.com/en/full/1573957/donald-trump.jpg?w=95&amp;h=95&amp;f=e790d83dafe16a9a28b75569e0324cbb" class="mapping-small lazysize lazyloaded d-flex mr-3" alt="newsweek-img">
+                  <div class="media-body">
+                    <h5 class="media-title">More Aggressive' Coronavirus Strain May Have Evolved—But Don't Worry</h5>
+                    <p>
+                      Scientists studied the viral DNA from 103 people infected with the virus that has killed over 3,000
+                      people worldwide.
+                    </p>
+                  </div>
+                </div>
+                <div class="media mt-3 more-stories">
+                    <img src="https://d.newsweek.com/en/full/1573957/donald-trump.jpg?w=95&amp;h=95&amp;f=e790d83dafe16a9a28b75569e0324cbb" class="mapping-small lazysize lazyloaded d-flex mr-3" alt="newsweek-img">
+                    <div class="media-body">
+                      <h5 class="media-title">More Aggressive' Coronavirus Strain May Have Evolved—But Don't Worry</h5>
+                      <p>
+                        Scientists studied the viral DNA from 103 people infected with the virus that has killed over 3,000
+                        people worldwide.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="media mt-3 more-stories">
+                      <img src="https://d.newsweek.com/en/full/1573957/donald-trump.jpg?w=95&amp;h=95&amp;f=e790d83dafe16a9a28b75569e0324cbb" class="mapping-small lazysize lazyloaded d-flex mr-3" alt="newsweek-img">
+                      <div class="media-body">
+                        <h5 class="media-title">More Aggressive' Coronavirus Strain May Have Evolved—But Don't Worry</h5>
+                        <p>
+                          Scientists studied the viral DNA from 103 people infected with the virus that has killed over 3,000
+                          people worldwide.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="media mt-3 more-stories">
+                        <img src="https://d.newsweek.com/en/full/1573957/donald-trump.jpg?w=95&amp;h=95&amp;f=e790d83dafe16a9a28b75569e0324cbb" class="mapping-small lazysize lazyloaded d-flex mr-3" alt="newsweek-img">
+                        <div class="media-body">
+                          <h5 class="media-title">More Aggressive' Coronavirus Strain May Have Evolved—But Don't Worry</h5>
+                          <p>
+                            Scientists studied the viral DNA from 103 people infected with the virus that has killed over 3,000
+                            people worldwide.
+                          </p>
+                        </div>
+                      </div>
+          </div>
+
+
+
+
+        
         <div class="mt-5">
           <h5 class="text-muted">LATEST NEWS</h5>
           <div class="media latest pb-3 mt-3">
@@ -433,24 +547,6 @@
             </div>
           </div>
         </div>
-        <div class="media  latest pb-3 mt-3">
-          <img src="images/deck_img.jpg" class="debate img-fluid d-flex mr-3" alt="newsweek-img">
-
-          <div class="media-body">
-            <h6 class="media-title font-weight-bold">More Aggressive' Coronavirus Strain May Have Evolved—But Don't
-              Worry</h6>
-
-          </div>
-        </div>
-        <div class="media latest  pb-3 mt-3">
-          <img src="images/deck_img.jpg" class="debate img-fluid d-flex mr-3" alt="newsweek-img">
-
-          <div class="media-body">
-            <h6 class="media-title font-weight-bold">More Aggressive' Coronavirus Strain May Have Evolved—But Don't
-              Worry</h6>
-
-          </div>
-        </div>
         <div class="media latest pb-3 mt-3">
           <img src="images/deck_img.jpg" class="debate img-fluid d-flex mr-3" alt="newsweek-img">
 
@@ -459,6 +555,22 @@
               Worry</h6>
           </div>
         </div>
+        <div class="media latest pb-3 mt-3">
+            <img src="images/deck_img.jpg" class="debate img-fluid d-flex mr-3" alt="newsweek-img">
+  
+            <div class="media-body">
+              <h6 class="media-title font-weight-bold">More Aggressive' Coronavirus Strain May Have Evolved—But Don't
+                Worry</h6>
+            </div>
+          </div>
+          <div class="media latest pb-3 mt-3">
+              <img src="images/deck_img.jpg" class="debate img-fluid d-flex mr-3" alt="newsweek-img">
+    
+              <div class="media-body">
+                <h6 class="media-title font-weight-bold">More Aggressive' Coronavirus Strain May Have Evolved—But Don't
+                  Worry</h6>
+              </div>
+            </div>
         <div class="media latest pb-3 mt-3">
           <img src="images/deck_img.jpg" class="debate img-fluid d-flex mr-3" alt="newsweek-img">
 
@@ -475,7 +587,7 @@
               Worry</h6>
           </div>
         </div>
-        <div class=" col-md-12 m-md-auto m-sm-auto news-letter sticky">
+        <div class=" col-md-12 m-md-auto col-sm-12 mx-sm-auto news-letter sticky">
           <div class="d-flex mt-4">
             <span class="icon-n mt-4 ml-3"></span>
             <p class="mt-3 ml-2 font-weight-bold para">SIGN UP FOR OUR NEWSLETTER</p>
@@ -485,6 +597,8 @@
         </div>
       </div>
     </div>
+
+
 
     <div class="row  pl-lg-4 pr-lg-4 bg-white">
       <div class="col-12 mt-4">
@@ -1235,7 +1349,7 @@
           </div>
         </div>
       </section>
-      <section class=" col-lg-4 mt-5 col-md-12">
+      <section class=" col-lg-4 mt-5 col-md-12 w-md-50">
         <h5>NEWSLETTER</h5>
         <div class="card mb-3 sides">
           <div class="row no-gutters">

@@ -6,6 +6,12 @@ body {
   background: #f4f5f7;
 }
 
+.divider {
+  background: #f4f5f7;
+  height:10px;
+  color: #f4f5f7;
+}
+
 header {
   background: #f72210;
 }
@@ -124,12 +130,8 @@ nav li a:hover {
   width: 100px;
 }
 
-.culture-text {
- 
-}
-
 .deck {
-  font: 20px "Lora",serif;
+  font: 20px ,serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -169,6 +171,7 @@ nav li a:hover {
   background: #f4f5f6;
   height: 200px;
   width: 350px;
+  margin: 0 auto;
 }
 
 .para {
@@ -291,3 +294,6 @@ nav li a:hover {
 .question {
   width: 30px;
 }
+
+
+
