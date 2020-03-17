@@ -293,3 +293,15 @@ nav li a:hover {
 .question {
   width: 30px;
 }
+
+.opinion h6:hover {
+  color: #f72210;
+  cursor: pointer;
+}
+
+.card-title:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+  text-decoration-style: solid;
+  cursor: pointer;
+}
